@@ -1,3 +1,5 @@
+# somfonrgiun
+
 from collections import *
 
 n = int(input())
