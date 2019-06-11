@@ -4,7 +4,7 @@
 int main() {
     double n;
     if(scanf("%lf", &n) <= 0)    {
-        printf("invalid");
+        printf("Invalid");
         return 0;
     }
 
