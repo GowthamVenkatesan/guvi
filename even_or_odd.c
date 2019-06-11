@@ -3,7 +3,7 @@
 
 int main() {
     double n;
-    if(scanf("%lf", &n) <= 0)    {
+    if(scanf("%lf", &n) <= 0 || n < 0)    {
         printf("Invalid");
         return 0;
     }
