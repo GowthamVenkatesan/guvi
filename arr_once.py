@@ -1,7 +1,7 @@
 from collections import *
 
 n = int(input())
-l = [int(i) for i in input().split(' ')]
+l = [int(i) for i in input().strip().split(' ')]
 l.sort()
 d = defaultdict(int)
 rep = []
