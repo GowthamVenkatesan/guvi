@@ -1,4 +1,4 @@
-# pos neg zero
+# pos neg zero xyjxyrikjyikgu
 n = int(input())
 if n > 0:
     print("Positive")
