@@ -6,7 +6,7 @@ int main()
     char c;
     c = getc(stdin);
 
-    if(!isalpha(c)) {
+    if(!isalpha(tolower(c))) {
         printf("invalid");
     }
     else {
